@@ -3,7 +3,6 @@ from turtle import pos
 from flask import flash, redirect, render_template, url_for
 from app import app
 from app.forms import LoginForm
-from teste import Controller
 
 @app.route('/')
 @app.route('/index')
