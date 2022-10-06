@@ -7,6 +7,9 @@ from app.models import User
 #parou onde implementa a próxima linha
 from werkzeug.urls import url_parse
 
+@app.route('/user/<username>')
+@login_required
+
 @app.route('/')
 @app.route('/index')
 @login_required
